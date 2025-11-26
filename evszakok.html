@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> <!--külső css-->
     <title>Évszakok</title>
     <style>
         body {
@@ -11,6 +12,7 @@
 
         h1 {
             text-align: center;     /*szöveg igazítása vízszintesen*/
+            color: pink;        /*szöveg színe*/
         }
 
         img {
@@ -24,7 +26,8 @@
         img:hover {     /*:hover (állapot): ha az elem felé viszem az egeret történik valami esemény*/
             transform: scale(1.3);  /*az elem átméretezése*/
         }
-    </style>
+    </style> <!--belső css-->
+     
 </head>
 <body>
     <nav>
@@ -35,7 +38,7 @@
         <a href="evszakok.html">ÉVSZAKOK</a> |
     </nav>
     <br>
-    <h1>ÉVSZAKOK</h1>
+    <h1 style="color: purple;">ÉVSZAKOK</h1> <!--inline stílus - soron belüli-->
     <img src="img/tavasz.jpg" alt="tavasz" title="tavasz">
     <img src="img/nyar.jpg" alt="nyár" title="nyár">
     <img src="img/osz.jpg" alt="ősz" title="ősz">
